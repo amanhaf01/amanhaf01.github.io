@@ -24,10 +24,10 @@ description: "My amazing website to showcase who I am."
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-header:
-  teaser: /assets/images/500x300.png # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+header: /assets/images/500x300.png
+teaser: /assets/images/500x300.png # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: /assets/images/88x88.png # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title: "My Custom Ting" # overrides the website title displayed in the masthead, use " " for no title
+masthead_title: # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs: false # true, false (default)
 words_per_minute: 200
 comments:
@@ -96,15 +96,15 @@ author:
   name: "Aman Hafeez"
   avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio: "I am an **amazing** person."
-  location: "Somewhere"
-  email:
+  location: "Exactly where I need to be"
+  email: "amanhaf@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "amanhaf@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://amanhafeez.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
